@@ -4,8 +4,6 @@ This guide will help you bring up the project with the required commands for bot
 
 ---
 
-## 1. **Start PostgreSQL Backend with Docker Compose**
-
 
 
 ### **Step 1: Build and Run Docker Containers**
