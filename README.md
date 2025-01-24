@@ -6,7 +6,7 @@ This guide will help you bring up the project with the required commands for bot
 
 
 
-### **Step 1: Build and Run Docker Containers**
+## **1: Build and Run Docker Containers**
 Run the following command to bring up PostgreSQL with Docker Compose:
 
 ```bash
