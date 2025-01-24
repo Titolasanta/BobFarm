@@ -6,17 +6,20 @@ This guide will help you bring up the project with the required commands for bot
 
 ## 1. **Start PostgreSQL Backend with Docker Compose**
 
-To start the PostgreSQL database for your backend using Docker Compose, follow these steps:
+
 
 ### **Step 1: Build and Run Docker Containers**
-Run the following command in the project root directory to bring up PostgreSQL with Docker Compose:
+Run the following command to bring up PostgreSQL with Docker Compose:
 
 ```bash
+cd .../CornFarmBackend
 docker-compose up
 ```
 
 
 ## 2. **Backend**
+
+Run the following command to run the Server:
 
 ```bash
 cd .../CornFarmBackend
@@ -27,6 +30,8 @@ dotnet run
 
 ## 3. **Frontend**
 
+Run the following command to run the frontend:
+
 ```bash
 cd .../front/front
 npm install
@@ -35,6 +40,8 @@ npm start
 
 
 ## 4. **Tests**
+
+Run the following command to test the Backend:
 
 ```bash
 cd .../CornFarmBackend.Tests
