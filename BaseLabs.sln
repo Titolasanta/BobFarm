@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "back", "back", "{11BF4459-C332-B9BD-164A-F44681F2EC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back", "back\CornFarmBackend\back.csproj", "{8DADBFE9-8634-0067-645C-917AB8A4F2AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CornFarmBackend.Tests", "back\CornFarmBackend.Tests\CornFarmBackend.Tests.csproj", "{F4556828-4F24-AB32-2DF3-319C1AA9EC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DADBFE9-8634-0067-645C-917AB8A4F2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DADBFE9-8634-0067-645C-917AB8A4F2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DADBFE9-8634-0067-645C-917AB8A4F2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DADBFE9-8634-0067-645C-917AB8A4F2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4556828-4F24-AB32-2DF3-319C1AA9EC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4556828-4F24-AB32-2DF3-319C1AA9EC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4556828-4F24-AB32-2DF3-319C1AA9EC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4556828-4F24-AB32-2DF3-319C1AA9EC97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DADBFE9-8634-0067-645C-917AB8A4F2AD} = {11BF4459-C332-B9BD-164A-F44681F2EC0B}
+		{F4556828-4F24-AB32-2DF3-319C1AA9EC97} = {11BF4459-C332-B9BD-164A-F44681F2EC0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED6B9991-42A8-4F6C-8AA9-3A1DA6AC97BF}
+	EndGlobalSection
+EndGlobal

@@ -1373,7 +1373,7 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "back/1.0.0": {
+      "CornFarmBackend/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -1385,10 +1385,10 @@
           "xunit": "2.9.3"
         },
         "compile": {
-          "bin/placeholder/back.dll": {}
+          "bin/placeholder/CornFarmBackend.dll": {}
         },
         "runtime": {
-          "bin/placeholder/back.dll": {}
+          "bin/placeholder/CornFarmBackend.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -3162,16 +3162,16 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "back/1.0.0": {
+    "CornFarmBackend/1.0.0": {
       "type": "project",
-      "path": "../back/back.csproj",
-      "msbuildProject": "../back/back.csproj"
+      "path": "../CornFarmBackend/CornFarmBackend.csproj",
+      "msbuildProject": "../CornFarmBackend/CornFarmBackend.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CornFarmBackend >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
-      "back >= 1.0.0",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 2.8.2"
@@ -3209,8 +3209,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\titon\\Desktop\\pp\\pruebas tecnicas\\BaseLabs\\back\\back\\back.csproj": {
-              "projectPath": "C:\\Users\\titon\\Desktop\\pp\\pruebas tecnicas\\BaseLabs\\back\\back\\back.csproj"
+            "C:\\Users\\titon\\Desktop\\pp\\pruebas tecnicas\\BaseLabs\\back\\CornFarmBackend\\CornFarmBackend.csproj": {
+              "projectPath": "C:\\Users\\titon\\Desktop\\pp\\pruebas tecnicas\\BaseLabs\\back\\CornFarmBackend\\CornFarmBackend.csproj"
             }
           }
         }

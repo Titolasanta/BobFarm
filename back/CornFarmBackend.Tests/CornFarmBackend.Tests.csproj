@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\back\back.csproj" />
+    <ProjectReference Include="..\CornFarmBackend\CornFarmBackend.csproj" />
   </ItemGroup>
 
 </Project>
