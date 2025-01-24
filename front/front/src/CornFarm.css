@@ -1,0 +1,68 @@
+/* Apply a soft yellow background to the entire page */
+body {
+  background-color: #fff9c4; /* Light yellow shade */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Centered container with padding, rounded corners, and a subtle shadow */
+.container {
+  background-color: #fff9c4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+/* Title styling */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Input field styling */
+input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.success {
+  color: #388e3c;
+}
+
+.error {
+  color: #d32f2f;
+}
+
