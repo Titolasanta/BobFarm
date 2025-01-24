@@ -13,7 +13,7 @@ Run the following command in the project root directory to bring up PostgreSQL w
 
 ```bash
 docker-compose up
-bash```
+```
 
 
 ## 2. **Backend**
@@ -23,7 +23,7 @@ cd .../CornFarmBackend
 dotnet restore
 dotnet ef database update
 dotnet run
-bash```
+```
 
 ## 3. **Frontend**
 
@@ -31,7 +31,7 @@ bash```
 cd .../front/front
 npm install
 npm start
-bash```
+```
 
 
 ## 4. **Tests**
@@ -39,4 +39,4 @@ bash```
 ```bash
 cd .../CornFarmBackend.Tests
 dotnet tests
-bash```
+```
